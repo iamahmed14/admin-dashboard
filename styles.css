@@ -54,6 +54,11 @@ body{
 .search_bar:focus{
     outline: none;
 }
+.search_button{
+    background-color: #334155;
+    border: none;
+    height: 24px;
+}
 .search_button:hover{
     cursor: pointer;
 }
