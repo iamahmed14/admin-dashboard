@@ -29,10 +29,52 @@ body{
 }
 .header{
     background-color: #334155;
+    color: white;
     height: 100px;
+    display: flex;
+    align-items: center;
+    padding: 30px;
+    justify-content: space-between;
+}
+.search{
+    border: 1px solid white;
+    border-radius: 20px;
+    padding: 0 10px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+}
+.search_bar{
+    width: 350px;
+    height: 34px;
+    background-color: #334155;
+    border: none;
+    color: white;
+}
+.search_bar:focus{
+    outline: none;
+}
+.search_button:hover{
+    cursor: pointer;
 }
 
+.admin_info{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.profile_image{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+
+}
+.github:hover{
+    cursor: pointer;
+    width: 40px;
+    height: 40px;
+}
 .main{
     background-color: #0f172a;
-    height: 400px;
+    min-height: 100vh;
 }
